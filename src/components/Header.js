@@ -1,5 +1,7 @@
 import React from "react"
 import {Navbar,Nav} from "react-bootstrap"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const Header =()=>{
     return(
@@ -7,7 +9,8 @@ const Header =()=>{
                 <Navbar bg="dark" variant="dark">
                     <Navbar.Brand href="#home">PICKUP FREASH</Navbar.Brand>
                     <Nav className="ml-auto">
-                        <Nav.Link href="#home"><i class="fa fa-shopping-cart"></i> Cart</Nav.Link>
+                    <FontAwesomeIcon icon={faCoffee} />
+                        <Nav.Link href="#home"><i class='fas fa-shopping-cart'></i> Cart</Nav.Link>
                         <Nav.Link href="#features"> <i class="fa fa-user"></i>login</Nav.Link>
                         <Nav.Link href="#pricing">Pricing</Nav.Link>
                     </Nav>
