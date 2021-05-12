@@ -13,6 +13,7 @@ const Header =()=>{
                         <Nav.Link href="#home"><i class='fas fa-shopping-cart'></i> Cart</Nav.Link>
                         <Nav.Link href="#features"> <i class="fa fa-user"></i>login</Nav.Link>
                         <Nav.Link href="#pricing">Pricing</Nav.Link>
+                        <p>hello</p>
                     </Nav>
                 </Navbar>
 
