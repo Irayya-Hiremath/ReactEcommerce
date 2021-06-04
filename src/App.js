@@ -10,7 +10,9 @@ function App() {
   return (
     <div>
       <Header/>
-      <HomeScreen/>
+      <main>
+         <HomeScreen/>
+      </main>
       <Footer/>
      
     </div>
