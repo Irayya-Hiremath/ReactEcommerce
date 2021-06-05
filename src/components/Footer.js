@@ -5,8 +5,8 @@ import { Container, Row, Col } from "react-bootstrap";
 const Footer =() =>{
     return(
         <div> 
-            <Container>
-                <Row>
+            <Container bg="dark" variant="dark">
+                <Row >
                     <Col className="text-center ">
                      <p>copy right&copy Irayya</p> 
                     </Col>
