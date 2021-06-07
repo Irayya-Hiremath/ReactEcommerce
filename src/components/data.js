@@ -26,7 +26,7 @@ const products=[
     {
         _id:3,
         name:"Canon EOS 80d DSLR Camera",
-        image:"/Images/camera",
+        image:"/Images/camera.jpg",
         description:"",
         brand:"Canon",
         category:"Electronics",
@@ -38,7 +38,7 @@ const products=[
     {
         _id:4,
         name:"Sony Playstation 4 Pro White version",
-        image:"/Images/sony",
+        image:"/Images/sony.jpg",
         description:"",
         brand:"Sony",
         category:"Electronics",
@@ -50,7 +50,7 @@ const products=[
     {
         _id:5,
         name:"Logitech G-Series gaming Mouse",
-        image:"/Images/mouse",
+        image:"/Images/mouse.jpg",
         description:"",
         brand:"Logitech",
         category:"Electronics",
@@ -62,7 +62,7 @@ const products=[
     {
         _id:6,
         name:"Amazon Echo Dot 3rd Generation",
-        image:"/Images/amazon",
+        image:"../amazon.jpg",
         description:"",
         brand:"Amazon",
         category:"Electronics",
