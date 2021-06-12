@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import data from "./data";
 import {Container,Row,Col,Card} from "react-bootstrap"
-import airpod from "../Images/airpod.jpeg";
+import airpod from "../Images/airpod.jpeg";  
 
 
 
