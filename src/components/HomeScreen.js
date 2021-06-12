@@ -1,7 +1,8 @@
 import React,{useState} from "react";
 import data from "./data";
 import {Container,Row,Col,Card} from "react-bootstrap"
-import airpod from "../Images/airpod.jpeg";  
+import airpod from "../Images/airpod.jpeg"; 
+import {Link}from "react-router-dom"; 
 
 
 
@@ -15,7 +16,9 @@ return(
                     {products.map((prod)=>(
                         <Col sm={12} md={6}lg={4}xl={3}>
                             <Card className="my-3 p-3 rounded">
+                                <Link to={`/products/${prod._id}`}>
                                 <Card.Img src={prod.image} varient="top"/>
+                                </Link>
                             </Card> 
                             <Card.Body>
                                 <Card.Title as="div">

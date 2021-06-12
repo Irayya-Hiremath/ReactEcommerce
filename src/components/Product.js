@@ -1,6 +1,10 @@
-import React from "react"
+import React, { useEffect } from "react"
 
-const Product=() =>{
+const Product=(props) =>{
+        const[product,setProduct]=useState({}):
+        useEffect(()=>{
+            
+        })
     return(
         <div> 
           
