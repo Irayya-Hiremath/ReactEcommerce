@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from "react";
 import data from "./data";
-import {Container} from "react-bootstrap";
+import {Container,Row,Col,ListGroup,Item} from "react-bootstrap";
 import {Link} from 'react-router-dom';
 
 const Product=(props) =>{
@@ -11,7 +11,7 @@ const Product=(props) =>{
             
         },[]);
     return(
-        <div> 
+        <> 
           <Container>
               <Link className="btn btn-light my-3" to="/">
                   Go Back
@@ -23,11 +23,17 @@ const Product=(props) =>{
                               <h3>{product.name}</h3>
                           </ListGroup.Item>
                       </ListGroup>
+                      <ListGroup.Item>
+                          <h3>Price{product.price}</h3>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                          <h3>Description{product.description}</h3>
+                      </ListGroup.Item>
 
                   </Col>
               </Row>
           </Container>
-        </div>
+        </>
     )
 }
 

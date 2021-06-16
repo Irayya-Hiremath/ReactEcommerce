@@ -3,7 +3,7 @@ const products=[
         _id:1,
         name:"Airpods Wireless Bluetooth Headphones",
         image:"/Images/airpod.jpg",
-        description:"",
+        description:"ffkkhkhfhfhkhkhkffhkkhfkhfhkfhkfkhkhffkhkhfhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
         brand:"Apple",
         category:"Electronics",
         price:"$9.99",
