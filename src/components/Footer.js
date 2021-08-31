@@ -8,9 +8,7 @@ const Footer =() =>{
             <Container bg="dark" variant="dark">
                 <Row >
                     <Col className="text-center ">
-                     <p>copy right&copy Irayya</p> 
-                     <p>copy right&copy Irayya</p> 
-
+                     <p>copy right &#169; Irayya</p> 
                     </Col>
                 </Row>
             </Container>

@@ -15,9 +15,9 @@ return(
                 <Row>
                     {products.map((prod)=>(
                         <Col sm={12} md={6}lg={4}xl={3}>
-                            <Card className="my-3 p-3 rounded">
+                            <Card className="my-3 p-3 rounded" >
                                 <Link to={`/products/${prod._id}`}>
-                                <Card.Img src={prod.image} varient="top"/>
+                                <Card.Img src={prod.image} varient="top"style={{height:'300px'}}/>
                                 </Link>
                             </Card> 
                             <Card.Body>

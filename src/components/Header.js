@@ -11,7 +11,7 @@ const Header =()=>{
         <>
                 <Navbar bg="dark" variant="dark">
                     <Container>
-                    <Navbar.Brand href="#home">PICKUP FREASH</Navbar.Brand>
+                    <Navbar.Brand href="#home">PICKUP FRESH</Navbar.Brand>
                     <Nav className="ml-auto">
                         <Nav.Link href="#home"><i> <FaShoppingCart/></i> Cart</Nav.Link>
                         <Nav.Link href="#features"> <i><FaUser/> </i>login</Nav.Link>
