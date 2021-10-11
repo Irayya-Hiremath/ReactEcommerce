@@ -1,25 +1,26 @@
-import React from "react"
-import './App.css';
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import HomeScreen from "./components/HomeScreen";
-import Product from "./components/Product"
-import {BrowserRouter as Router, Route} from "react-router-dom"
-
+import Footer from './component/Footer';
+import Header from './component/Header';
+import HomeScreen from './component/HomeScreen';
+import "./bootstrap.min.css"
+import {BrowserRouter as Router,Route} from "react-router-dom";
+import Product from './component/Product';
+import Cart from './component/Cart';
 
 
 function App() {
   return (
     <Router>
-    <div>
-      <Header/>
-      <main>
-         <Route exact path='/' component={HomeScreen}/>
-         <Route path='/products/:id'component={Product}/>
-      </main>
-      <Footer/>
-     
-    </div>
+      <div className="App">
+        <Header />
+        <main>
+          <Route exact path="/" component={HomeScreen} />
+          <Route path="/products/:id" component={Product} />
+          <Route path="/cart" component={Cart} />
+        </main>
+        <br/>
+        <Footer />
+
+      </div>
     </Router>
   );
 }
